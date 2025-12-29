@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBMS - Contact</title>
+    <style>
+        /* --- General Base Styles --- */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            /* Best Background: Professional Light Blue/Gray */
+            background-color: #e9f5ff; 
+            color: #343a40; 
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 50px auto; 
+            padding: 30px; 
+            background: #ffffff; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+        }
+        h1 { 
+            color: #17A2B8; /* Info Blue/Teal */
+            border-bottom: 2px solid #17A2B8;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        .message-card {
+            background-color: #f0f8ff; /* Very light blue */
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        /* --- Background Image Placeholder --- */
+        .page-background {
+            /* Placeholder for your image: */
+            /* background-image: url('YOUR_CONTACT_IMAGE.jpg'); */
+            background-size: cover;
+            background-position: center;
+            padding: 20px 0;
+        }
+
+        /* --- Navigation Bar (Corrected & Refined) --- */
+        .navbar { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #007BFF; 
+            padding: 12px 20px; 
+            color: white;
+        }
+        .nav-brand-container { 
+            display: flex; 
+            align-items: center; 
+        }
+        .donation-tagline { 
+            color: white; 
+            font-weight: bold; 
+            margin-left: 15px; 
+        }
+        .menu-links a { 
+            color: white; 
+            margin: 0 12px; 
+            text-decoration: none; 
+            font-weight: 500; 
+            display: block; 
+            padding: 5px 0;
+            transition: color 0.3s;
+        }
+        .menu-links a:hover {
+            color: #DC3545; 
+        }
+        .menu-links { 
+            display: flex; 
+            flex-direction: row; 
+            align-items: center; 
+        }
+        .hamburger-icon { 
+            display: none; 
+            color: white; 
+            font-size: 28px; 
+            cursor: pointer; 
+            padding: 0;
+        }
+
+        /* --- Mobile Styles --- */
+        @media screen and (max-width: 768px) {
+            .menu-links { 
+                display: none; 
+                width: 100%; 
+                flex-direction: column; 
+                background-color: #0069d9; 
+                position: absolute; 
+                top: 50px; 
+                left: 0;
+                padding-bottom: 10px;
+            }
+            .navbar {
+                justify-content: flex-start; 
+                position: relative;
+            }
+            .nav-brand-container {
+                order: 1;
+                width: 100%;
+                justify-content: space-between;
+            }
+            .hamburger-icon { 
+                display: block; 
+                order: 2; 
+            }
+            .navbar.responsive .menu-links { 
+                display: flex; 
+                z-index: 10;
+            }
+            .navbar.responsive .menu-links a { 
+                padding: 10px 20px; 
+                text-align: left; 
+                border-top: 1px solid rgba(255, 255, 255, 0.1); 
+                margin: 0; 
+            }
+            .donation-tagline {
+                margin-left: 0;
+            }
+        }
+    </style>
+    <script>
+        function redirectPage(fileName) {
+            window.location.href = fileName;
+        }
+        function toggleMenu() {
+            var nav = document.querySelector(".navbar");
+            if (nav) {
+                nav.classList.toggle("responsive");
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="page-background">
+    <div class="navbar">
+        <div class="nav-brand-container">
+            <span class="donation-tagline">Give Blood. Save a Life.</span>
+            <a href="javascript:void(0);" class="hamburger-icon" onclick="toggleMenu()">
+                &#9776;
+            </a>
+        </div>
+
+        <div class="menu-links" id="myMenuLinks">
+            <a onclick="redirectPage('home.html')">BBMS Home</a>
+            <a onclick="redirectPage('about.html')">About BBMS</a>
+            <a onclick="redirectPage('contact.html')">Contact Us</a>
+            <a onclick="redirectPage('createaccount.html')"> Create Account</a>
+            <a onclick="redirectPage('login.html')">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Contact the BBMS Team</h1>
+        <div class="message-card">
+            <p>Please use the contact information below for any urgent inquiries or technical support.</p>
+            <p>Email: support@bbms.org | Phone: (555) 123-4567</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
