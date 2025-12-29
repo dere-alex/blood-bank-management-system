@@ -1,0 +1,190 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+ }
+ .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+ }
+ .icon{
+    width: 100%;
+    float: left;
+    height: 70px;
+ }
+ .logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 0px;
+    margin-left: 0;
+ }
+ .logo .h2{
+  padding-left: 0;
+ }
+ .menu{
+    width: 600px;
+    float: right;
+    height: 70px;
+    cursor: pointer;
+ }
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+ }
+ ul li a{
+   font-size: 18px;
+     text-decoration: none;
+     color: #fff;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out; 
+ }
+ li a:hover{
+    color: #ff7200;
+ }
+
+ .btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+      border-bottom-right-radius: 5px;  
+ }
+ .btn:focus{
+    outline: none;
+ }
+ .srch:focus{
+    outline: none;
+ }
+ .content{
+    width: 1200px;
+    height: auto;
+    margin-left: 10px;
+    color: #fff;
+    position: relative;
+    padding: 0;
+ }
+ .content .par{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 40;
+ }
+ .content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 0px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+ }
+ 
+ .content .cn{
+  
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+ }
+ .cn:hover{
+    background-color: #fff;
+ }
+ .content span{
+    color: #ff7200;
+    font-size: 60px;
+ }
+.section .card{
+  width:100%;max-width:1100px;padding:46px;
+  border-radius:18px;
+  box-shadow:0 18px 40px rgba(11,12,16,0.12);
+  text-align:center;
+  background:linear-gradient(180deg,rgba(25, 207, 35, 0.06),rgba(0,0,0,0.02));
+}
+.gap{height:48px;background:linear-gradient(180deg,hsl(72, 62%, 74%),#cfe473)}
+
+
+.home-section{
+  background:linear-gradient(160deg,#87cc9c44,#d4d37c 60%);
+}
+.home-section .card{
+  box-shadow:none;background:transparent;padding:0;
+  width: 1100px;
+  height: 900px;
+
+}
+.home-title{
+  font-size:56px;font-weight:900;color:#f30a0a;
+  text-shadow:0 6px 28px rgba(185,28,28,0.12);
+}
+.home-sub{
+  font-size:20px;font-weight:600;color:#2b2b2b;
+}
+/* 
+/* ========================= LANDING PAGE COLORS ========================= */
+.l1{background:linear-gradient(135deg,hsl(252, 100%, 97%),#eefffb)}
+.l2{background:linear-gradient(135deg,hsl(252, 100%, 97%),#dedbff)}
+.l3{background:linear-gradient(135deg,#f0f6ff,#eef2ff)}
+.l4{background:linear-gradient(135deg,#fff7f4,#ffeae6)}
+
+.landing-title{
+  font-size:34px;font-weight:900;color:#ff7200;margin-bottom:12px;
+}
+.landing-line{
+  font-size:18px;color:#222;font-weight:600;margin-bottom:8px;
+}
+
+/* ========================= BUTTON ========================= */
+.btn{
+  display:inline-block;padding:14px 30px;
+  border-radius:10px;
+  background:linear-gradient(90deg,#6b21a8,#3b82f6);
+  color:#fff;text-decoration:none;font-weight:800;
+  transition:.25s;box-shadow:0 8px 30px rgba(59,130,246,0.14);
+  cursor: pointer;
+}
+.btn:hover{
+  transform:translateY(-6px) scale(1.03);
+  box-shadow:0 20px 50px rgba(59,130,246,0.24);
+}
+
+/* ========================= FOOTER ========================= */
+footer{
+  padding:30px;text-align:center;color:#eee1e1;
+  background:linear-gradient(180deg,#180606,#131212);
+  border-top:1px solid rgba(0,0,0,0.04);
+}
+footer p{margin:6px 0;font-size:14px}
