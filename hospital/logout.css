@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #fafafa;
+    text-align: center;
+}
+
+.logout-box {
+    margin-top: 120px;
+    background: white;
+    display: inline-block;
+    padding: 40px 60px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #b30000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background: #800000;
+}

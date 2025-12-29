@@ -1,0 +1,24 @@
+.form-box {
+    width: 430px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #b30000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
