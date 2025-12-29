@@ -1,0 +1,48 @@
+/* patientdashboard.css */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+.sidebar {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    background: #003366;
+    padding-top: 20px;
+    color: white;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    background: #004080;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background: #0055aa;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
