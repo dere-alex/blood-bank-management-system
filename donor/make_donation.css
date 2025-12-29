@@ -1,0 +1,29 @@
+.form-box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #b30000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

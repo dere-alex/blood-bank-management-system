@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-size: cover;
+    background-position: center;
+  
+    /* You will insert background image later */
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #e15ae63a;
+    padding: 20px;
+    position: fixed;
+    color: rgb(167, 184, 18);
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+.content h1,p{
+
+ background-color:rgba(151, 189, 82, 0.281);
+
+}
+
+    
+.sidebar a {
+    display: block;
+    color: #333;
+    padding: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+    background: #8b00002f;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background: #3f6600;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 30px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
